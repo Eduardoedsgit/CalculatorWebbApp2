@@ -3,13 +3,13 @@
         <title>Eduardo Calculadora</title>
         <!--Linkando o css-->
         <link rel="stylesheet" href="src/style/style.css">
-        <meta name="viewport" content="width=device-width initial-scale=1"/>
+        <meta name="viewport" content="width=device-width initial-scale=1"/>            
     </head>
     <body class="PageBody">
         <div class="CalculatorPanel">
             <h3 class="CalculatorTitle">CALCULADORA BÁSICA</h3>
             <DIV class="AlignDisplay">
-                <input class="Display" type="text" maxlength="10" placeholder="0">
+                <input class="Display" id="InputDisplay" type="text" maxlength="10" placeholder="0">
             </DIV>
             <div class="BoxButtons">
                 <div class="ButtonsAlign">
@@ -31,8 +31,8 @@
                     <button class="OperButtons">-</button>
                 </div>
                 <div class="ButtonsAlign">
-                    <button class="Buttons">1</button>
-                    <button class="Buttons">2</button>
+                    <button type="button" id="BtnNumber1" class="Buttons">1</button>
+                    <button type="button" id="BtnNumber2" class="Buttons">2</button>
                     <button class="Buttons">3</button>
                     <button class="OperButtons">+</button>
                 </div>
@@ -44,5 +44,7 @@
             </div>            
                 <h3 class="EndePortfolio">edudigitalsystems.blogspot.com</h3>             
         </div>
+        <!--Linkando a ação da linguagem javascript-->
+        <script type="text/javascript" src="src/ActionController/Controler.js"></script> 
     </body>
 </html>
