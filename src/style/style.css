@@ -1,0 +1,111 @@
+
+/*estilo da calculadora*/
+.CalculatorPanel{
+    width: 300px;
+    height: 550px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 50px auto;
+    background-color: black;
+}
+.CalculatorTitle{
+    text-align: center;
+    color: rgb(8, 240, 8);
+    margin-top: 25px;
+}
+.AlignDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.Display{
+    width: 260px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 50px;
+    text-align: right;
+    font-weight: bold;
+}
+.BoxButtons{
+    margin-top: 40px;
+}
+.ButtonsAlign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Buttons{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    cursor:pointer;
+    font-size:25px;
+    border-radius:100px;
+    background-color: rgb(53, 54, 54);
+    color:white;
+    font-weight: bold;
+}
+.SymbolButtons{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    cursor:pointer;
+    font-size:25px;
+    border-radius:100px;
+    background-color: rgb(176, 182, 182);
+    color:white;
+    font-weight: bold;
+}
+.OperButtons{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    cursor:pointer;
+    font-size:25px;
+    border-radius:100px;
+    background-color: rgb(233, 88, 4);
+    color:white;
+    font-weight: bold;
+
+}
+.EqualButton{
+    width: 120px;
+    height: 50px;
+    margin: 10px;
+    cursor:pointer;
+    font-size:25px;
+    border-radius:100px;
+    background-color: rgb(41, 6, 235);
+    color:white;
+    font-weight: bold;
+}
+
+/*para dispositivos móveis*/
+@media screen and (max-width: 500px) {
+
+    .CalculatorPanel{
+        width: 95%;
+        height: 588px;
+        margin-top: 20px;
+    }
+    .Display{
+        width: 80%;
+    }
+    .SymbolButtons{
+        width: 30%;
+        height: 60px;
+    }
+    .Buttons{
+        width: 30%;
+        height: 60px;
+    }
+    .OperButtons{
+        width: 30%;
+        height: 60px;
+    }
+    .EqualButton{
+        width: 30%;
+        height: 60px;
+    }
+}
